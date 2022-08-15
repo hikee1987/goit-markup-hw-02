@@ -1,3 +1,59 @@
-body{
-    
+body {
+  background: #ffffff;
 }
+
+.list {
+  list-style: none;
+}
+
+/* Шапка сайта */
+
+.logo-link {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+/* Навигация по сайту */
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0000ff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Контакты в шапке */
+
+.contacts-color {
+  color: #757575;
+  text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #0000ff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Главная страница */
+
+/* Описание с постами */
+
+/* Наши проекты */
+
+/* Фото нашей команды  */
+
+/* Подвал */
+
+/* Лого подвала */
+
+/* Контакты подвала */
