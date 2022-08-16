@@ -4,44 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Главная</title>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
-      
-      <nav>
-        <a class="logo-link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+      <nav class="navi">
+        <a class="logo" href="./index.html">Web<span class="span">Studio</span></a>
 
         <!-- Навигация по сайту -->
-      <section class="navi">
+
         <ul class="list">
-          <li><a href="./index.html" class="nav-link link">Студія</a></li>
+          <li><a href="./index.html" class="link current">Студія</a></li>
           <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      </section>
+
       <!-- Контакты в шапке -->
-      <ul class="list">
+      <ul class="list auth">
         <li>
-          <a href="mailto:info@devstudio.com" class="contacts-link">mailto:info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111" class="contacts-color contacts-link">+380961111111</a>
+          <a href="tel:+380961111111" class="link">+380961111111</a>
         </li>
       </ul>
     </header>
     <!-- Главная страница -->
     <main>
-      <section class="main">
-        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-        <input class="mani-button" type="button" value="Замовити послугу" />
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <input class="hero-button" type="button" value="Замовити послугу" />
       </section>
       <!-- Описание с постами -->
       <section class="post">
-        <h2 class="post-title">Выбирайте Кращих</h2>
+        <h2 class="hide-title">Выбирайте Кращих</h2>
         <ul class="list">
           <li>
             <h3 class="sub-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -70,8 +75,8 @@
         </ul>
       </section>
       <!-- Наши проекты -->
-      <section class="our-work">
-        <h2 class="title">Чим ми займаємося</h2>
+      <section class="project">
+        <h2 class="project-title">Чим ми займаємося</h2>
         <ul class="list">
           <li>
             <img src="./images/box1.jpg" alt="Сommunity" width="370" height="294" />
@@ -90,25 +95,25 @@
         <h2 class="team-title">Наша команда</h2>
         <ul class="list">
           <li>
-            <img class="team-link" src="./teamcard/img1.jpg" width="270" alt="Ігор Дем'яненко" />
+            <img class="team-card" src="./teamcard/img1.jpg" width="270" alt="Ігор Дем'яненко" />
             <h3 class="team-name">Ігор Дем'яненко</h3>
             <p class="team-worked">Product Designer</p>
           </li>
 
           <li>
-            <img class="team-link" src="./teamcard/img2.jpg" width="270" alt="Ольга Рєпіна" />
+            <img class="team-card" src="./teamcard/img2.jpg" width="270" alt="Ольга Рєпіна" />
             <h3 class="team-name">Ольга Рєпіна</h3>
             <p class="team-worked">Frontend Developer</p>
           </li>
 
           <li>
-            <img class="team-link" src="./teamcard/img3.jpg" width="270" alt="Микола Тарасов" />
+            <img class="team-card" src="./teamcard/img3.jpg" width="270" alt="Микола Тарасов" />
             <h3 class="team-name">Микола Тарасов</h3>
             <p class="team-worked">Marketing</p>
           </li>
 
           <li>
-            <img class="team-link" src="./teamcard/img4.jpg" width="270" alt="Михайло Єрмаков" />
+            <img class="team-card" src="./teamcard/img4.jpg" width="270" alt="Михайло Єрмаков" />
             <h3 class="team-name">Михайло Єрмаков</h3>
             <p class="team-worked">UI Designer</p>
           </li>
@@ -119,19 +124,21 @@
     <!-- Подвал -->
     <footer class="footer">
       <!-- Лого подвала -->
-      <a class="link-logo" href="./index.html"><span class="logo-footer">Web</span>Studio</a>
+      <a class="logo" href="./index.html"><span class="span">Web</span>Studio</a>
 
       <!-- Контакты подвала -->
-      <address>
+      <address class="adress">
         <ul class="list">
           <li>
-            <a href="https://goo.gl/maps/tazPPrL3akD36epS8">м. Київ, пр-т Лесі Українки, 26</a>
+            <a class="map" target="_blank" href="https://goo.gl/maps/tazPPrL3akD36epS8"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
+            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111">+380961111111</a>
+            <a class="contact" href="tel:+380961111111">+380961111111</a>
           </li>
         </ul>
       </address>
