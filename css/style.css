@@ -17,9 +17,6 @@ body {
 /* Шапка сайта */
 
 .navi .logo {
-
-  font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -53,8 +50,6 @@ body {
 }
 
 .nav .button {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -67,8 +62,6 @@ body {
 /* Наші переваги */
 
 .page .title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -116,8 +109,6 @@ body {
 }
 
 .hero-button {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -130,8 +121,6 @@ body {
 /* Описание с постами */
 
 .post .sub-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -139,8 +128,7 @@ body {
 }
 
 .post .text-title {
-  font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -150,8 +138,6 @@ body {
 /* Наши проекты */
 
 .project-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -162,8 +148,6 @@ body {
 /* Фото нашей команды  */
 
 .team-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -178,8 +162,6 @@ body {
 }
 
 h .team-name {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -187,8 +169,6 @@ h .team-name {
 }
 
 .team-worked {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
