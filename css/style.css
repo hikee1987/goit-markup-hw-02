@@ -37,7 +37,7 @@ body {
 }
 
 .navi .span {
-  color: var(--activate-color);
+  color: var(--activate-btn-color);
 }
 
 /* Навигация по сайту ================================================ */
@@ -151,7 +151,7 @@ body {
 
 .post .text-title {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-tx-color);
@@ -186,7 +186,7 @@ body {
 }
 
 .team-name {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -194,7 +194,7 @@ body {
 }
 
 .team-worked {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
