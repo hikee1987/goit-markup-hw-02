@@ -1,5 +1,14 @@
+:root {
+  --primary-tx-color: #212121;
+  --secondary-tx-color: #757575;
+  --secondary-bgd-color: #ffffff;
+  --activate-btn-color: #2196F3;
+}
+
+
 body {
   font-family: 'Roboto', 'sans-serif';
+  color: var(--primary-tx-color);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -17,15 +26,18 @@ body {
 /* Шапка сайта ================================================*/
 
 .navi .logo {
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
 }
 
 .navi .span {
-  color: #2196F3
+  color: var(--activate-color);
 }
 
 /* Навигация по сайту ================================================ */
@@ -35,47 +47,61 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #000000;
-
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-tx-color);
 }
 
 .navi .current {
-  color: #2196F3;
+  color: var(--activate-btn-color);
 }
 
 .navi .link:hover,
 .navi .link:focus {
-  color: #2196F3;
+  color: var(--activate-color);
 }
 
-.nav .button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  cursor: pointer;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background: #2196F3;
-}
+
 
 /* Наші переваги ================================================ */
+
+.page .button {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--primary-tx-color);
+
+
+
+}
+
+.page .button:hover,
+.page .button:focus {
+  color: var(--secondary-bgd-color);
+  background: var(--activate-btn-color);
+
+}
+
 
 .page .title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-tx-color);
 
 }
 
 .page .text {
   font-style: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-tx-color);
 
 }
 
@@ -86,33 +112,29 @@ body {
 .auth .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #757575;
+  line-height: 1.14;
+  color: var(--secondary-tx-color);
   text-decoration: none;
-}
-
-.auth .current {
-  color: #2196F3;
 }
 
 .auth .link:hover,
 .auth .link:focus {
-  color: #2196F3;
+  color: var(--activate-btn-color);
 }
 
 /* Главная страница ================================================ */
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--secondary-bgd-color);
 }
 
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: calc(30 / 16);
   letter-spacing: 0.06em;
-  color: #FFFFFF;
-  background: #2196F3;
+  color: var(--secondary-bgd-color);
+  background: var(--activate-btn-color);
 
 }
 
@@ -121,14 +143,18 @@ body {
 .post .sub-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-tx-color);
+
 }
 
 .post .text-title {
   font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-tx-color);
 }
 
 /* Наши проекты ================================================ */
@@ -136,39 +162,43 @@ body {
 .project-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-tx-color);
 }
 
 /* Фото нашей команды ================================================ */
 
 .team-title {
+  font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-tx-color);
 }
 
 
 .team-card {
-  background: #FFFFFF;
+  background: var(--secondary-bgd-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-h .team-name {
-  font-weight: 500;
+.team-name {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  color: #212121;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-tx-color);
 }
 
 .team-worked {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-tx-color);
 }
 
 /* Подвал ================================================ */
@@ -180,7 +210,7 @@ h .team-name {
   top: 2094px;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   background: #2F303A;
 
 }
@@ -193,8 +223,8 @@ h .team-name {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196F3;
+  line-height: 1.19;
+  color: var(--activate-btn-color);
 }
 
 
@@ -204,8 +234,9 @@ h .team-name {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #FFFFFF;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-bgd-color);
 }
 
 /* Контакты подвала ================================================ */
@@ -213,24 +244,28 @@ h .team-name {
 
 
 .adress .map {
+  text-decoration: none;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  color: #FFFFFF;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-bgd-color);
 
 
 }
 
 .adress .contact {
-  color: #757575;
   text-decoration: none;
+  color: #757575;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .adress .contact:hover,
 .adress .contact:focus {
-  color: #2196F3;
+  color: var(--activate-btn-color);
 }
