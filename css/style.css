@@ -245,7 +245,7 @@ body {
 .adress .map {
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -258,7 +258,7 @@ body {
   text-decoration: none;
   color: #757575;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
