@@ -172,8 +172,8 @@ body {
 .team-title {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 36px;
+  line-height: 1.16;
   letter-spacing: 0.06em;
   color: var(--primary-tx-color);
 }
